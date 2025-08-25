@@ -1,0 +1,14 @@
+{
+  "port": 8888,
+  "algorithm": "least_connections",
+  "health_check_interval": 30.0,
+  "connection_timeout": 30.0,
+  "max_connections_per_server": 100,
+  "rate_limit_requests_per_minute": 1000,
+  "enable_ssl": false,
+  "ssl_cert_file": "",
+  "ssl_key_file": "",
+  "session_timeout": 300,
+  "enable_sticky_sessions": true,
+  "log_level": "INFO"
+}
